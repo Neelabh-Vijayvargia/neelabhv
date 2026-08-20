@@ -11,9 +11,9 @@
   --size-headshot: 10.6rem;
   --size-headshot-sm: 7.2rem;
   --size-headshot-xs: 6.9rem;
-  --width-page: 32rem;
+  --width-page: 38rem;
   --width-container: min(100% - 2rem, var(--width-page));
-  --max-width-lede: 32rem;
+  --max-width-lede: 38rem;
   --radius-photo: 3rem;
   --radius-photo-sm: 2rem;
   --spacing-hero-gap: 2rem;

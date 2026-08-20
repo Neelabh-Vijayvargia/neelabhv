@@ -13,7 +13,7 @@ export default function About() {
         >
           Palantir
         </a>{' '}
-        on their data synchronization layer. Before that, I worked at{' '}
+        on data synchronization. Before that, I worked at{' '}
         <a
           href="https://www.capitalone.com"
           target="_blank"
@@ -25,7 +25,7 @@ export default function About() {
       </p>
       <p>Outside of work, I enjoy reading, golfing, and trying new food.</p>
       <p>
-        I would love to chat or grab a coffee. Please reach out on {' '}
+        I would love to chat or grab a coffee. Reach out on {' '}
         <a
           href="https://www.linkedin.com/in/neelabh-vijayvargia/"
           target="_blank"
