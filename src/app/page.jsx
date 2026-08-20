@@ -1,8 +1,8 @@
-import About from './components/About'
-import Hero from './components/Hero'
-import SocialLinks from './components/SocialLinks'
+import About from '../components/About'
+import Hero from '../components/Hero'
+import SocialLinks from '../components/SocialLinks'
 
-export default function App() {
+export default function Home() {
   return (
     <>
       <SocialLinks />

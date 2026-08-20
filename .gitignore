@@ -16,8 +16,9 @@
 # production
 /dist
 
-# obsolete generated cache from the previous Next.js setup
+# Next.js
 /.next/
+/out/
 
 # misc
 .DS_Store
