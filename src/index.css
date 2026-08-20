@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-bg: #eef3f0;
+  --color-ink: #0a0b0c;
+  --color-muted: #4e5558;
+  --color-underline: rgba(10, 11, 12, 0.42);
+  --color-underline-hover: rgba(10, 11, 12, 0.74);
+  --color-hairline: rgba(10, 11, 12, 0.1);
+  --color-focus: rgba(10, 11, 12, 0.78);
+  --size-headshot: 10.6rem;
+  --size-headshot-sm: 7.2rem;
+  --size-headshot-xs: 6.9rem;
+  --width-page: 32rem;
+  --width-container: min(100% - 2rem, var(--width-page));
+  --max-width-lede: 32rem;
+  --radius-photo: 3rem;
+  --radius-photo-sm: 2rem;
+  --spacing-hero-gap: 2rem;
+  --spacing-hero-bottom: 0.7171875rem;
+  --spacing-lede: 0.72rem;
+  --spacing-section: 1.45rem;
+  --spacing-heading: 0.34rem;
+  --spacing-page-top: clamp(3.1rem, 7vh, 5.25rem);
+  --spacing-page-bottom: clamp(1.6rem, 3vh, 2.35rem);
+  --text-name: 2.03rem;
+  --text-name--line-height: 1;
+  --text-name-md: 1.55rem;
+  --text-name-xs: 1.48rem;
+  --text-lede: 1.54rem;
+  --text-lede--line-height: 1.07;
+  --text-lede-md: 1.32rem;
+  --text-lede-md--line-height: 1.12;
+  --text-lede-xs: 1.24rem;
+  --text-lede-xs--line-height: 1.12;
+  --text-heading: 1.06rem;
+  --text-heading--line-height: 1.24;
+  --text-copy: 0.98rem;
+  --text-copy--line-height: 1.34;
+  --shadow-photo: 0 0 0 1px var(--color-hairline), 0 22px 52px rgba(24, 34, 30, 0.12);
+  --grid-template-columns-hero: var(--size-headshot) minmax(0, 1fr);
+  --grid-template-columns-hero-sm: var(--size-headshot-sm) minmax(0, 1fr);
+  --text-decoration-thickness-link: 0.08em;
+  --text-underline-offset-link: 0.13em;
+  --transition-duration-link: 160ms;
+  --breakpoint-xs: 23.8125rem;
+  --breakpoint-sm: 35.0625rem;
+  --breakpoint-md: 47.5625rem;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  html { color-scheme: light; }
+  body {
+    margin: 0;
+    background: var(--color-bg) radial-gradient(circle at 50% -12rem, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0) 26rem);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+  :focus-visible { outline: 2px solid var(--color-focus); outline-offset: 4px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
