@@ -2,7 +2,7 @@ import Section from './Section'
 
 export default function About() {
   return (
-    <Section heading="about me">
+    <Section>
       <p>Hi! I&apos;m a student at UT Austin studying Math &amp; Business Honors.</p>
       <p>
         I recently worked at{' '}

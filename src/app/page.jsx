@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <SocialLinks />
-      <main className="mx-auto flex min-h-dvh w-container flex-col justify-center py-page-bottom">
+      <main className="mx-auto flex min-h-dvh w-container-xs flex-col justify-center py-page-bottom sm:w-container">
         <Hero />
         <About />
       </main>
